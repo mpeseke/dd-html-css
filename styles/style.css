@@ -51,6 +51,10 @@ a[type="nofollow"] {
     color: red;
 }
 
+.flex-container {
+    display: flex;
+}
+
 footer {
     text-align: center;
     color:white;
