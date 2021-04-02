@@ -44,6 +44,11 @@ on a given page. */
     /* margin-left: 300px; */
 
 }
+
+#article2 {
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
 /* attribute selectors target only elements with a specific attribute */
 a[type] {
     color:green;
