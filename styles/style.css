@@ -21,6 +21,7 @@ ul {
 main {
     display: grid;
     grid-template-columns: auto 20%;
+    grid-auto-rows: minmax(200px, auto);
 
 }
 /* class selectors target just elements of a given class name */
