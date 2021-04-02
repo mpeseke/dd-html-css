@@ -3,6 +3,7 @@ there are a few different ways to target elements, listed below. */
 
 /* element selectors target everything in the selected element */
 
+
 html, body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,8 +52,20 @@ a[type="nofollow"] {
     color: red;
 }
 
+
 .flex-container {
     display: flex;
+}
+ /* pseudo-class selectors apply the style only when the condition of the pseudo-class is met */
+.flex-container:hover {
+    background-color: coral;
+}
+
+/* pseudo-classes are permanent style applicators that use a parent element to
+help them target something */
+p::first-letter {
+    font-weight: bolder;
+    font-size: 130%;
 }
 
 footer {
@@ -62,5 +75,16 @@ footer {
     margin: 0;
     padding: 1em;
 }
+
+/* 
+media queries can be used to target specific use cases, these 
+can be helpful for building apps for both mobile and desktop */
+@media screen and (max-width:720px) {
+    body{
+        color: white;
+        background-color: black;
+    } 
+}
+
 
 
